@@ -1,0 +1,6 @@
+{
+  "name": "Oakline Realty — Austin Real Estate Demo",
+  "description": "A polished, mobile-first real estate agent website demo for Oakline Realty in Austin, Texas, built with HTML5, CSS3, vanilla JavaScript, and Bootstrap 5.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

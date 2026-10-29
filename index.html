@@ -1,0 +1,1868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Basic SEO Meta Tags -->
+  <title>Oakline Realty — Austin, Texas Luxury Real Estate Advisory</title>
+  <meta name="description" content="Boutique residential real estate advisory across Austin, Westlake Hills, and the Texas Hill Country. Discover curated architectural properties and discrete client representation with Oakline Realty." />
+  <meta name="keywords" content="Austin luxury real estate, Westlake Hills homes, Lady Bird Lake penthouses, Austin real estate advisor, Texas Hill Country estates, Oakline Realty" />
+  <meta name="author" content="Oakline Realty Portfolio Demo" />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <!-- OpenGraph / Social Sharing -->
+  <meta property="og:title" content="Oakline Realty — Austin Luxury Real Estate Demo" />
+  <meta property="og:description" content="Editorial real estate agent website featuring curated Austin properties, local neighborhood guides, and private advisory services." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Oakline Realty — Austin Real Estate Demo" />
+  <meta name="twitter:description" content="Editorial boutique real estate brand demonstration serving Austin, Texas." />
+
+  <!-- Google Fonts: Cormorant Garamond (Editorial Serif) + Plus Jakarta Sans (Modern Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5.3.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <!-- Custom Luxury Stylesheet (Static + Vite Compatible) -->
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module">
+    import './styles.css';
+  </script>
+</head>
+<body>
+
+  <!-- Accessible Skip Link -->
+  <a href="#mainContent" class="skip-link">Skip to main content</a>
+
+  <!-- Prominent Fictional Portfolio Demo Banner -->
+  <aside class="demo-banner" aria-label="Portfolio Demonstration Notice">
+    <div class="container d-flex flex-wrap align-items-center justify-content-between gap-2">
+      <div class="d-flex align-items-center gap-2">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-warning flex-shrink-0" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="8" x2="12" y2="12"></line>
+          <line x1="12" y1="16" x2="12.01" y2="16"></line>
+        </svg>
+        <span><strong class="demo-banner-gold">Fictional Portfolio Showcase:</strong> Oakline Realty is a concept real estate brand for Austin, Texas. Sample properties, reviews, and advisor details are simulated mock assets.</span>
+      </div>
+      <div>
+        <button type="button" class="btn btn-sm btn-outline-light py-0 px-2 text-nowrap" data-bs-toggle="modal" data-bs-target="#demoDisclaimerModal" aria-label="Read demo details and licensing notice">
+          Demo Disclosures
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- 1. Premium Header (Custom Oakline Realty Wordmark, Refined Nav, Prominent CTA) -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg py-3" aria-label="Main Navigation">
+        <!-- Custom Oakline Realty Luxury Wordmark with Architectural Monogram -->
+        <a class="navbar-brand-custom" href="#top" aria-label="Oakline Realty Austin Home">
+          <svg class="brand-emblem-svg" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+            <rect width="36" height="36" rx="4" fill="#101C2C" />
+            <!-- Architectural Interlocking Monogram in Muted Champagne Gold -->
+            <circle cx="18" cy="18" r="11" stroke="#C6A66B" stroke-width="1.5" stroke-dasharray="3 1.5" />
+            <path d="M12 24 L18 11 L24 24" stroke="#C6A66B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <line x1="14" y1="20" x2="22" y2="20" stroke="#C6A66B" stroke-width="1.5" />
+            <circle cx="18" cy="18" r="1.5" fill="#E0CEAA" />
+          </svg>
+          <div class="brand-text-block">
+            <span class="brand-name-serif">OAKLINE</span>
+            <span class="brand-subline">REALTY · AUSTIN</span>
+          </div>
+        </a>
+
+        <!-- Mobile Hamburger Toggler -->
+        <button class="navbar-toggler navbar-toggler-custom d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+
+        <!-- Nav Links & CTA -->
+        <div class="collapse navbar-collapse" id="navbarMain">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-1">
+            <li class="nav-item">
+              <a class="nav-link-custom" href="#featuredProperties">Featured Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link-custom" href="#propertySearch">Search Homes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link-custom" href="#neighborhoodGuide">Austin Enclaves</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link-custom" href="#services">Advisory Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link-custom" href="#agentProfile">Principal Advisor</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link-custom" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link-custom" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+          <!-- Zone 3: Prominent Contact CTA -->
+          <div class="d-flex align-items-center mt-3 mt-lg-0">
+            <a href="#contact" class="btn-luxury-gold w-100 w-lg-auto" data-consultation-trigger>
+              <span>Private Consultation</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main id="mainContent">
+
+    <!-- 2. Hero Section (Striking Property Image, Compelling Headline, 2 Clear CTAs) -->
+    <section class="hero-section" id="top" aria-labelledby="heroHeadline">
+      <div class="container">
+        <div class="row align-items-center g-4 g-lg-5">
+          <!-- Left Column: Copy & Action Hierarchy -->
+          <div class="col-lg-6">
+            <span class="section-kicker">Austin &amp; Hill Country Residential Advisory</span>
+            <h1 class="display-headline mb-3" id="heroHeadline">Find a Place to Call Home</h1>
+            
+            <p class="editorial-lead mb-4">
+              Curated acquisitions, discrete advisory, and architectural distinction across Westlake Hills, Lady Bird Lake, and the Texas Hill Country. We pair forensic valuation with design discernment to secure extraordinary properties for our clients.
+            </p>
+
+            <div class="d-flex flex-column flex-sm-row gap-3 mb-4">
+              <a href="#featuredProperties" class="btn-luxury-gold">
+                <span>Explore Curated Portfolio</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <polyline points="19 12 12 19 5 12"></polyline>
+                </svg>
+              </a>
+              <a href="#contact" class="btn-luxury-outline" data-consultation-trigger>
+                <span>Schedule Private Advisory</span>
+              </a>
+            </div>
+
+            <!-- Regional Trust Credentials -->
+            <div class="d-flex flex-wrap align-items-center gap-3 text-muted small pt-2">
+              <span class="d-inline-flex align-items-center gap-1">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C6A66B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Licensed Texas Broker Associate
+              </span>
+              <span aria-hidden="true">·</span>
+              <span class="d-inline-flex align-items-center gap-1">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C6A66B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Eanes ISD &amp; Central Austin Specialist
+              </span>
+            </div>
+          </div>
+
+          <!-- Right Column: Cinematic Architectural Estate Photography -->
+          <div class="col-lg-6">
+            <div class="hero-media-wrapper" role="region" aria-label="Cinematic Austin Architectural Residence">
+              <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1400&q=80"
+                   alt="The Westlake Modern Sanctuary — Architectural Austin estate overlooking the Hill Country at dusk"
+                   class="hero-media-image"
+                   loading="eager"
+                   decoding="async"
+                   onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='block';" />
+              <svg viewBox="0 0 800 500" class="w-100 h-auto" style="display: none;" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Architectural Austin Hill Country Modern Estate at Twilight with Live Oak and Reflection Pool">
+                <defs>
+                  <linearGradient id="luxurySky" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#101C2C" />
+                    <stop offset="50%" stop-color="#192A41" />
+                    <stop offset="85%" stop-color="#3A3437" />
+                    <stop offset="100%" stop-color="#735445" />
+                  </linearGradient>
+                  <linearGradient id="luxuryPool" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#1A3B57" />
+                    <stop offset="100%" stop-color="#0E1E2E" />
+                  </linearGradient>
+                  <linearGradient id="warmGlass" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#FFF1D2" stop-opacity="0.95" />
+                    <stop offset="100%" stop-color="#DEB065" stop-opacity="0.80" />
+                  </linearGradient>
+                  <linearGradient id="limestoneWash" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#C2BCB3" />
+                    <stop offset="100%" stop-color="#9E988E" />
+                  </linearGradient>
+                </defs>
+
+                <!-- Dusk Sky -->
+                <rect width="800" height="500" fill="url(#luxurySky)" />
+                
+                <!-- Texas Hill Country Ridges in Distance -->
+                <path d="M 0 340 Q 180 310 380 330 T 800 320 L 800 500 L 0 500 Z" fill="#152438" opacity="0.85" />
+                <path d="M 0 360 Q 240 335 490 350 T 800 345 L 800 500 L 0 500 Z" fill="#0D1724" />
+
+                <!-- Main Architectural Residence (Texas Limestone + Black Steel + Cedar) -->
+                <rect x="130" y="225" width="480" height="165" fill="#252A31" rx="3" />
+                <!-- Native Austin Limestone Feature Tower -->
+                <rect x="130" y="225" width="170" height="165" fill="url(#limestoneWash)" />
+                <line x1="130" y1="260" x2="300" y2="260" stroke="#544F48" stroke-width="1.5" />
+                <line x1="130" y1="295" x2="300" y2="295" stroke="#544F48" stroke-width="1.5" />
+                <line x1="130" y1="330" x2="300" y2="330" stroke="#544F48" stroke-width="1.5" />
+                <line x1="130" y1="365" x2="300" y2="365" stroke="#544F48" stroke-width="1.5" />
+
+                <!-- Floor-to-Ceiling Glass Great Room (Warm Lighting) -->
+                <rect x="320" y="240" width="270" height="135" fill="url(#warmGlass)" rx="2" />
+                <!-- Mullions & Steel Framing -->
+                <line x1="387" y1="240" x2="387" y2="375" stroke="#101C2C" stroke-width="3" />
+                <line x1="454" y1="240" x2="454" y2="375" stroke="#101C2C" stroke-width="3" />
+                <line x1="521" y1="240" x2="521" y2="375" stroke="#101C2C" stroke-width="3" />
+                <line x1="320" y1="305" x2="590" y2="305" stroke="#101C2C" stroke-width="2.5" />
+
+                <!-- Cantilevered Cedar Roof Overhang with Champagne Fascia -->
+                <polygon points="105,225 625,215 635,225 105,230" fill="#1B1713" />
+                <line x1="105" y1="225" x2="635" y2="215" stroke="#C6A66B" stroke-width="2" />
+
+                <!-- Upper Architectural Level -->
+                <rect x="220" y="165" width="270" height="65" fill="#1C2430" rx="2" />
+                <rect x="240" y="175" width="105" height="50" fill="url(#warmGlass)" opacity="0.85" />
+                <rect x="365" y="175" width="105" height="50" fill="url(#warmGlass)" opacity="0.85" />
+                <line x1="210" y1="165" x2="505" y2="165" stroke="#C6A66B" stroke-width="2.5" />
+
+                <!-- Infinity Reflection Pool -->
+                <polygon points="250,390 700,390 660,475 190,475" fill="url(#luxuryPool)" />
+                <line x1="270" y1="412" x2="640" y2="412" stroke="#90CAF9" stroke-width="1.2" opacity="0.45" />
+                <line x1="230" y1="440" x2="660" y2="440" stroke="#90CAF9" stroke-width="1.2" opacity="0.35" />
+
+                <!-- Heritage Live Oak Silhouettes -->
+                <!-- Left Oak Tree -->
+                <path d="M 50 490 Q 75 350 65 270 Q 40 230 20 190 Q 45 150 85 160 Q 135 140 165 180 Q 205 200 180 250 Q 150 270 100 310 Q 80 410 70 490 Z" fill="#0A111A" />
+                <!-- Right Oak Canopy -->
+                <path d="M 730 490 Q 720 310 740 220 Q 765 175 815 165 Q 835 215 825 265 Q 785 330 765 490 Z" fill="#0A111A" />
+
+                <!-- Terrace Accent Downlights -->
+                <circle cx="300" cy="385" r="3.5" fill="#FDE68A" />
+                <circle cx="600" cy="385" r="3.5" fill="#FDE68A" />
+              </svg>
+
+              <!-- Floating Luxury Label -->
+              <div class="hero-media-badge d-flex align-items-center justify-content-between">
+                <div>
+                  <span class="d-block fw-bold small text-white font-serif fs-6">The Westlake Modern Sanctuary</span>
+                  <span class="d-block text-secondary small" style="color: #CBD5E1 !important;">Architectural Concept · Westlake Hills, TX</span>
+                </div>
+                <span class="badge bg-warning-subtle text-dark border border-warning fw-bold">Portfolio Concept</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Market Proof Strip -->
+    <div class="trust-strip" aria-label="Advisor Highlights">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-6 col-lg-3">
+            <div class="trust-item">
+              <div class="trust-item-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
+              <div>
+                <span class="d-block fw-bold text-white fs-6 font-serif">12+ Years Advisory</span>
+                <span class="d-block small" style="color: #A0ABBA;">Austin Micro-Market Mastery</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="trust-item">
+              <div class="trust-item-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <div>
+                <span class="d-block fw-bold text-white fs-6 font-serif">100% Fiduciary</span>
+                <span class="d-block small" style="color: #A0ABBA;">Client-First Capital Protection</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="trust-item">
+              <div class="trust-item-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+              </div>
+              <div>
+                <span class="d-block fw-bold text-white fs-6 font-serif">Private Access</span>
+                <span class="d-block small" style="color: #A0ABBA;">Off-Market &amp; Pocket Listings</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="trust-item">
+              <div class="trust-item-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <div>
+                <span class="d-block fw-bold text-white fs-6 font-serif">TREC Compliant</span>
+                <span class="d-block small" style="color: #A0ABBA;">Texas Brokerage Standards</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Dedicated Property Search Interface (Location, Property Type, Price & Bedrooms) -->
+    <section class="property-search-section" id="propertySearch" aria-labelledby="searchHeaderTitle">
+      <div class="container">
+        <div class="search-bar-card">
+          <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-3 pb-2 border-bottom">
+            <div>
+              <span class="section-kicker mb-1">Search Austin Portfolio</span>
+              <h2 class="h5 font-serif mb-0 text-dark" id="searchHeaderTitle">Filter Available Residences by Location, Type &amp; Budget</h2>
+            </div>
+            <div class="mt-2 mt-md-0">
+              <button type="button" class="btn btn-link text-decoration-none text-muted small p-0" id="searchResetBtn">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-1" aria-hidden="true">
+                  <polyline points="1 4 1 10 7 10"></polyline>
+                  <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
+                </svg>
+                Reset All Criteria
+              </button>
+            </div>
+          </div>
+
+          <form id="propertySearchForm" onsubmit="return false;">
+            <div class="row g-3 align-items-end">
+              <!-- Location Field -->
+              <div class="col-md-3 col-sm-6">
+                <label for="searchLocationSelect" class="search-field-label">Austin Neighborhood</label>
+                <select id="searchLocationSelect" class="search-select">
+                  <option value="all">All Austin Locations</option>
+                  <option value="westlake">Westlake Hills (78746)</option>
+                  <option value="downtown">Downtown &amp; Rainey (78701)</option>
+                  <option value="bouldin">South Congress / Bouldin (78704)</option>
+                  <option value="barton-creek">Barton Creek (78735)</option>
+                  <option value="clarksville">Clarksville (78703)</option>
+                  <option value="mueller">Mueller (78723)</option>
+                </select>
+              </div>
+
+              <!-- Property Type Field -->
+              <div class="col-md-3 col-sm-6">
+                <label for="searchTypeSelect" class="search-field-label">Property Architecture</label>
+                <select id="searchTypeSelect" class="search-select">
+                  <option value="all">All Property Types</option>
+                  <option value="single-family">Single-Family Residence</option>
+                  <option value="luxury-condo">Luxury High-Rise Condo</option>
+                  <option value="modern-townhome">Modern Craftsman / Townhome</option>
+                </select>
+              </div>
+
+              <!-- Price Range Field -->
+              <div class="col-md-2 col-sm-6">
+                <label for="searchPriceSelect" class="search-field-label">Price Range</label>
+                <select id="searchPriceSelect" class="search-select">
+                  <option value="all">Any Price</option>
+                  <option value="under-1-5m">Under $1.5M</option>
+                  <option value="1-5m-2m">$1.5M – $2.0M</option>
+                  <option value="above-2m">$2.0M+</option>
+                </select>
+              </div>
+
+              <!-- Bedrooms Field -->
+              <div class="col-md-2 col-sm-6">
+                <label for="searchBedSelect" class="search-field-label">Bedrooms</label>
+                <select id="searchBedSelect" class="search-select">
+                  <option value="all">Any Bedrooms</option>
+                  <option value="2">2+ Bedrooms</option>
+                  <option value="3">3+ Bedrooms</option>
+                  <option value="4">4+ Bedrooms</option>
+                </select>
+              </div>
+
+              <!-- Action Button -->
+              <div class="col-md-2 col-sm-12">
+                <button type="button" class="btn-luxury-midnight w-100 py-2 justify-content-center" id="searchSubmitBtn">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  </svg>
+                  <span>Filter Results</span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Featured Property Cards (Images, Price, Beds, Baths, Area & Property Details) -->
+    <section class="section-padding bg-ivory" id="featuredProperties" aria-labelledby="featuredPropertiesHeading">
+      <div class="container">
+        <!-- Section Header with Disclaimers -->
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-4 gap-3">
+          <div>
+            <span class="section-kicker">Curated Acquisitions</span>
+            <h2 class="section-headline mb-2" id="featuredPropertiesHeading">Featured Austin Residences</h2>
+            <p class="editorial-lead mb-0 fs-6">
+              Sample architectural properties representative of our Austin focus areas.
+            </p>
+          </div>
+          <!-- Fictional Notice Badge -->
+          <div class="text-md-end">
+            <span class="badge bg-white text-secondary border px-3 py-2 shadow-sm">
+              Sample concepts for demonstration · Not available for sale
+            </span>
+          </div>
+        </div>
+
+        <!-- Secondary Quick Type Filter Tabs -->
+        <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 mb-4">
+          <div class="filter-tabs-container" role="group" aria-label="Quick filter by property type">
+            <button type="button" class="filter-tab-btn active" data-property-filter="all" aria-pressed="true">
+              All Residences
+            </button>
+            <button type="button" class="filter-tab-btn" data-property-filter="single-family" aria-pressed="false">
+              Single-Family
+            </button>
+            <button type="button" class="filter-tab-btn" data-property-filter="luxury-condo" aria-pressed="false">
+              Luxury High-Rise
+            </button>
+            <button type="button" class="filter-tab-btn" data-property-filter="modern-townhome" aria-pressed="false">
+              Modern Townhome
+            </button>
+          </div>
+
+          <!-- Real-time Filter Count Feedback -->
+          <div class="small text-muted font-monospace" id="propertyCountFeedback" aria-live="polite">
+            Showing 6 of 6 curated Austin residences
+          </div>
+        </div>
+
+        <!-- 6 Curated Sample Properties Grid -->
+        <div class="row g-4" id="propertyCardsGrid">
+          
+          <!-- Property 1: The Westlake Modern Sanctuary -->
+          <div class="col-md-6 col-lg-4 property-item-col" data-type="single-family" data-beds="4" data-location="westlake" data-price="2450000">
+            <article class="property-card" aria-labelledby="propTitle1">
+              <div class="property-media-box">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
+                     alt="Front elevation of The Westlake Modern Sanctuary with reflection pool"
+                     loading="lazy"
+                     decoding="async"
+                     onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='block';" />
+                <svg viewBox="0 0 400 300" style="display: none;" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Westlake Hills Modern Sanctuary architectural illustration">
+                  <rect width="400" height="300" fill="#101C2C" />
+                  <path d="M 0 160 Q 140 135 250 150 T 400 145 L 400 300 L 0 300 Z" fill="#1B293C" />
+                  <rect x="50" y="115" width="280" height="95" fill="#252A31" rx="2" />
+                  <rect x="175" y="125" width="140" height="75" fill="#FDE68A" opacity="0.88" />
+                </svg>
+                <span class="property-type-pill">Single-Family</span>
+                <button type="button" class="property-favorite-btn" aria-label="Save property to favorites">
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="property-card-body">
+                <div class="property-price" id="propPrice1">$2,450,000</div>
+                <h3 class="property-title" id="propTitle1">The Westlake Modern Sanctuary</h3>
+                <address class="property-address">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-1 text-muted" aria-hidden="true">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  Westlake Hills, Austin, TX 78746
+                </address>
+
+                <!-- Clean Unboxed Metadata -->
+                <div class="property-specs">
+                  <span>4 Beds</span>
+                  <span class="spec-separator" aria-hidden="true">·</span>
+                  <span>4.5 Baths</span>
+                  <span class="spec-separator" aria-hidden="true">·</span>
+                  <span>3,820 sq ft</span>
+                </div>
+
+                <p class="small text-muted mb-4">
+                  Native limestone masonry, negative-edge pool, panoramic Hill Country vistas, and top-tier Eanes ISD schools.
+                </p>
+
+                <div class="property-actions">
+                  <button type="button" class="btn-luxury-outline w-50 py-2 text-center" data-view-property="prop-1" aria-label="View details for The Westlake Modern Sanctuary">
+                    Quick View
+                  </button>
+                  <button type="button" class="btn-luxury-gold w-50 py-2 text-center" data-inquire-property="prop-1" aria-label="Schedule tour for The Westlake Modern Sanctuary">
+                    Schedule Tour
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Property 2: The Skyline Penthouse at Lady Bird Lake -->
+          <div class="col-md-6 col-lg-4 property-item-col" data-type="luxury-condo" data-beds="2" data-location="downtown" data-price="1875000">
+            <article class="property-card" aria-labelledby="propTitle2">
+              <div class="property-media-box">
+                <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=900&q=80"
+                     alt="Panoramic terrace view of The Skyline Penthouse at Lady Bird Lake"
+                     loading="lazy"
+                     decoding="async"
+                     onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='block';" />
+                <svg viewBox="0 0 400 300" style="display: none;" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Downtown Austin Skyline Penthouse architectural illustration">
+                  <rect width="400" height="300" fill="#101C2C" />
+                  <path d="M 0 0 L 400 0 L 400 210 L 0 210 Z" fill="#1E2A3A" />
+                  <rect x="180" y="90" width="55" height="120" fill="#475569" />
+                </svg>
+                <span class="property-type-pill">Luxury High-Rise</span>
+                <button type="button" class="property-favorite-btn" aria-label="Save property to favorites">
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="property-card-body">
+                <div class="property-price" id="propPrice2">$1,875,000</div>
+                <h3 class="property-title" id="propTitle2">The Skyline Penthouse at Lady Bird Lake</h3>
+                <address class="property-address">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-1 text-muted" aria-hidden="true">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  Downtown Austin, TX 78701
+                </address>
+
+                <div class="property-specs">
+                  <span>2 Beds</span>
+                  <span class="spec-separator" aria-hidden="true">·</span>
+                  <span>2.5 Baths</span>
+                  <span class="spec-separator" aria-hidden="true">·</span>
+                  <span>2,150 sq ft</span>
+                </div>
+
+                <p class="small text-muted mb-4">
+                  28th-floor corner residence, 270° water and skyline vistas, 24/7 concierge, and direct trail access.
+                </p>
+
+                <div class="property-actions">
+                  <button type="button" class="btn-luxury-outline w-50 py-2 text-center" data-view-property="prop-2" aria-label="View details for The Skyline Penthouse">
+                    Quick View
+                  </button>
+                  <button type="button" class="btn-luxury-gold w-50 py-2 text-center" data-inquire-property="prop-2" aria-label="Schedule tour for The Skyline Penthouse">
+                    Schedule Tour
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Property 3: The Bouldin Creek Artisan Craftsman -->
+          <div class="col-md-6 col-lg-4 property-item-col" data-type="modern-townhome" data-beds="3" data-location="bouldin" data-price="1295000">
+            <article class="property-card" aria-labelledby="propTitle3">
+              <div class="property-media-box">
+                <img src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=900&q=80"
+                     alt="Contemporary façade of The Bouldin Creek Artisan Craftsman"
+                     loading="lazy"
+                     decoding="async"
+                     onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='block';" />
+                <svg viewBox="0 0 400 300" style="display: none;" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Bouldin Creek Contemporary Craftsman architectural illustration">
+                  <rect width="400" height="300" fill="#101C2C" />
+                  <rect x="50" y="155" width="270" height="105" fill="#B45309" opacity="0.9" />
+                </svg>
+                <span class="property-type-pill">Modern Townhome</span>
+                <button type="button" class="property-favorite-btn" aria-label="Save property to favorites">
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="property-card-body">
+                <div class="property-price" id="propPrice3">$1,295,000</div>
+                <h3 class="property-title" id="propTitle3">The Bouldin Creek Artisan Craftsman</h3>
+                <address class="property-address">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-1 text-muted" aria-hidden="true">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  South Austin, TX 78704
+                </address>
+
+                <div class="property-specs">
+                  <span>3 Beds</span>
+                  <span class="spec-separator" aria-hidden="true">·</span>
+                  <span>3.0 Baths</span>
+                  <span class="spec-separator" aria-hidden="true">·</span>
+                  <span>2,410 sq ft</span>
+                </div>
+
+                <p class="small text-muted mb-4">
+                  Warm cedar siding, vaulted wood ceilings, private detached studio/ADU, and strolls to South Congress.
+                </p>
+
+                <div class="property-actions">
+                  <button type="button" class="btn-luxury-outline w-50 py-2 text-center" data-view-property="prop-3" aria-label="View details for The Bouldin Creek Artisan Craftsman">
+                    Quick View
+                  </button>
+                  <button type="button" class="btn-luxury-gold w-50 py-2 text-center" data-inquire-property="prop-3" aria-label="Schedule tour for The Bouldin Creek Artisan Craftsman">
+                    Schedule Tour
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Property 4: The Barton Creek Spanish Oaks Villa -->
+          <div class="col-md-6 col-lg-4 property-item-col" data-type="single-family" data-beds="5" data-location="barton-creek" data-price="3150000">
+            <article class="property-card" aria-labelledby="propTitle4">
+              <div class="property-media-box">
+                <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=900&q=80"
+                     alt="Hill Country Spanish Oaks estate villa with infinity pool"
+                     loading="lazy"
+                     decoding="async"
+                     onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='block';" />
+                <svg viewBox="0 0 400 300" style="display: none;" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Barton Creek Spanish Oaks Villa illustration">
+                  <rect width="400" height="300" fill="#101C2C" />
+                  <rect x="50" y="115" width="280" height="95" fill="#252A31" rx="2" />
+                </svg>
+                <span class="property-type-pill">Single-Family</span>
+                <button type="button" class="property-favorite-btn" aria-label="Save property to favorites">
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="property-card-body">
+                <div class="property-price" id="propPrice4">$3,150,000</div>
+                <h3 class="property-title" id="propTitle4">The Barton Creek Spanish Oaks Villa</h3>
+                <address class="property-address">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-1 text-muted" aria-hidden="true">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  Barton Creek, Austin, TX 78735
+                </address>
+
+                <div class="property-specs">
+                  <span>5 Beds</span>
+                  <span class="spec-separator" aria-hidden="true">·</span>
+                  <span>5.5 Baths</span>
+                  <span class="spec-separator" aria-hidden="true">·</span>
+                  <span>5,120 sq ft</span>
+                </div>
+
+                <p class="small text-muted mb-4">
+                  Guarded gated enclave, resort infinity pool, temperature-controlled wine room, and Spanish Oaks golf access.
+                </p>
+
+                <div class="property-actions">
+                  <button type="button" class="btn-luxury-outline w-50 py-2 text-center" data-view-property="prop-4" aria-label="View details for The Barton Creek Spanish Oaks Villa">
+                    Quick View
+                  </button>
+                  <button type="button" class="btn-luxury-gold w-50 py-2 text-center" data-inquire-property="prop-4" aria-label="Schedule tour for The Barton Creek Spanish Oaks Villa">
+                    Schedule Tour
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Property 5: The Clarksville Historic Heritage Estate -->
+          <div class="col-md-6 col-lg-4 property-item-col" data-type="single-family" data-beds="4" data-location="clarksville" data-price="1780000">
+            <article class="property-card" aria-labelledby="propTitle5">
+              <div class="property-media-box">
+                <img src="https://images.unsplash.com/photo-1598228723793-52759bba239c?auto=format&fit=crop&w=900&q=80"
+                     alt="Restored historic craftsman estate in Clarksville, Austin"
+                     loading="lazy"
+                     decoding="async"
+                     onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='block';" />
+                <svg viewBox="0 0 400 300" style="display: none;" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Clarksville Historic Craftsman illustration">
+                  <rect width="400" height="300" fill="#101C2C" />
+                  <rect x="50" y="155" width="270" height="105" fill="#334155" />
+                </svg>
+                <span class="property-type-pill">Single-Family</span>
+                <button type="button" class="property-favorite-btn" aria-label="Save property to favorites">
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="property-card-body">
+                <div class="property-price" id="propPrice5">$1,780,000</div>
+                <h3 class="property-title" id="propTitle5">The Clarksville Historic Heritage Estate</h3>
+                <address class="property-address">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-1 text-muted" aria-hidden="true">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  Clarksville, Austin, TX 78703
+                </address>
+
+                <div class="property-specs">
+                  <span>4 Beds</span>
+                  <span class="spec-separator" aria-hidden="true">·</span>
+                  <span>3.5 Baths</span>
+                  <span class="spec-separator" aria-hidden="true">·</span>
+                  <span>3,240 sq ft</span>
+                </div>
+
+                <p class="small text-muted mb-4">
+                  1920s restored millwork, wraparound pecan porch, French La Cornue range, and strolls to Clarksville cafes.
+                </p>
+
+                <div class="property-actions">
+                  <button type="button" class="btn-luxury-outline w-50 py-2 text-center" data-view-property="prop-5" aria-label="View details for The Clarksville Historic Heritage Estate">
+                    Quick View
+                  </button>
+                  <button type="button" class="btn-luxury-gold w-50 py-2 text-center" data-inquire-property="prop-5" aria-label="Schedule tour for The Clarksville Historic Heritage Estate">
+                    Schedule Tour
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Property 6: The Mueller Modern Courtyard Residence -->
+          <div class="col-md-6 col-lg-4 property-item-col" data-type="modern-townhome" data-beds="3" data-location="mueller" data-price="965000">
+            <article class="property-card" aria-labelledby="propTitle6">
+              <div class="property-media-box">
+                <img src="https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?auto=format&fit=crop&w=900&q=80"
+                     alt="LEED Platinum modern courtyard townhome in Mueller Austin"
+                     loading="lazy"
+                     decoding="async"
+                     onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='block';" />
+                <svg viewBox="0 0 400 300" style="display: none;" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Mueller Modern Townhome illustration">
+                  <rect width="400" height="300" fill="#101C2C" />
+                  <rect x="50" y="155" width="270" height="105" fill="#475569" />
+                </svg>
+                <span class="property-type-pill">Modern Townhome</span>
+                <button type="button" class="property-favorite-btn" aria-label="Save property to favorites">
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="property-card-body">
+                <div class="property-price" id="propPrice6">$965,000</div>
+                <h3 class="property-title" id="propTitle6">The Mueller Modern Courtyard Residence</h3>
+                <address class="property-address">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-1 text-muted" aria-hidden="true">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  Mueller, Austin, TX 78723
+                </address>
+
+                <div class="property-specs">
+                  <span>3 Beds</span>
+                  <span class="spec-separator" aria-hidden="true">·</span>
+                  <span>2.5 Baths</span>
+                  <span class="spec-separator" aria-hidden="true">·</span>
+                  <span>2,280 sq ft</span>
+                </div>
+
+                <p class="small text-muted mb-4">
+                  LEED Platinum passive solar home, interior courtyard garden, polished concrete floors, and solar array.
+                </p>
+
+                <div class="property-actions">
+                  <button type="button" class="btn-luxury-outline w-50 py-2 text-center" data-view-property="prop-6" aria-label="View details for The Mueller Modern Courtyard Residence">
+                    Quick View
+                  </button>
+                  <button type="button" class="btn-luxury-gold w-50 py-2 text-center" data-inquire-property="prop-6" aria-label="Schedule tour for The Mueller Modern Courtyard Residence">
+                    Schedule Tour
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Empty State (when filters yield no results) -->
+          <div class="col-12 d-none" id="noPropertiesFound" role="status" aria-live="polite">
+            <div class="p-5 text-center bg-white rounded-3 border">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#C6A66B" stroke-width="1.5" class="mb-3" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <h4 class="h5 mb-2 font-serif text-dark">No residences match your current search criteria</h4>
+              <p class="text-muted small mb-3 max-w-md mx-auto">
+                Try resetting your filters or adjusting your bedroom and neighborhood criteria to view all available Austin portfolio residences.
+              </p>
+              <button type="button" class="btn-luxury-outline btn-sm px-4" id="resetFiltersBtn">
+                Reset All Filters
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Brand Introduction & Agent Profile Section -->
+    <section class="section-padding bg-white" id="agentProfile" aria-labelledby="agentHeading">
+      <div class="container">
+        <div class="agent-card">
+          <div class="row align-items-center g-4 g-lg-5">
+            <!-- Portrait Column -->
+            <div class="col-lg-4 text-center">
+              <div class="agent-portrait-frame">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80"
+                     alt="Elena Vance, Principal Real Estate Advisor and Founder of Oakline Realty Austin"
+                     class="agent-portrait-image"
+                     loading="lazy"
+                     decoding="async"
+                     onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='block';" />
+                <svg viewBox="0 0 340 340" class="w-100 h-100" style="display: none;" role="img" aria-label="Elena Vance executive real estate advisor portrait placeholder">
+                  <defs>
+                    <radialGradient id="portraitGlow" cx="50%" cy="38%" r="65%">
+                      <stop offset="0%" stop-color="#1B2D44" />
+                      <stop offset="100%" stop-color="#0A121D" />
+                    </radialGradient>
+                  </defs>
+                  <rect width="340" height="340" fill="url(#portraitGlow)" />
+                  <circle cx="170" cy="115" r="58" fill="#F7F5F0" opacity="0.95" />
+                  <path d="M 170 175 C 110 175 80 230 75 340 L 265 340 C 260 230 230 175 170 175 Z" fill="#101C2C" />
+                  <text x="170" y="132" font-family="'Cormorant Garamond', Georgia, serif" font-size="44" font-weight="700" fill="#101C2C" text-anchor="middle">EV</text>
+                  <rect x="0" y="295" width="340" height="45" fill="rgba(10,18,29,0.92)" />
+                  <text x="170" y="322" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#E0CEAA" text-anchor="middle" letter-spacing="2">ELENA VANCE · PRINCIPAL ADVISOR</text>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Bio Copy Column -->
+            <div class="col-lg-8">
+              <span class="agent-demo-badge">Principal Real Estate Advisor</span>
+              <h2 class="section-headline mb-1" id="agentHeading">Elena Vance</h2>
+              <div class="text-muted fw-semibold mb-3">Founder, Oakline Realty · Native Austinite</div>
+              
+              <p class="text-muted mb-3 fs-6">
+                With more than twelve years advising high-net-worth individuals, institutional executives, and relocating families, Elena Vance provides an architectural rigor seldom found in transactional brokerages. Born and raised in Central Austin, she combines a master’s background in environmental planning with forensic comparative valuation.
+              </p>
+              <p class="text-muted mb-4 fs-6">
+                Elena deliberately caps her active client engagements to guarantee undivided fiduciary representation. Her proprietary relationships across Austin’s top architectural practices and title attorneys grant clients access to off-market inventory months before MLS syndication.
+              </p>
+
+              <!-- Credentials Strip -->
+              <div class="d-flex flex-wrap gap-3 text-muted small pb-4 border-bottom">
+                <span>Certified Luxury Home Marketing Specialist (CLHMS)</span>
+                <span aria-hidden="true" class="text-warning">·</span>
+                <span>Million Dollar Guild® Member</span>
+                <span aria-hidden="true" class="text-warning">·</span>
+                <span>Austin Board of REALTORS®</span>
+              </div>
+
+              <!-- Direct Channels -->
+              <div class="d-flex flex-wrap align-items-center gap-4 pt-3">
+                <a href="#contact" class="btn-luxury-gold" data-consultation-trigger>
+                  <span>Request Private Advisory Session</span>
+                </a>
+                <a href="tel:5125550198" class="text-decoration-none fw-semibold text-dark d-inline-flex align-items-center gap-2">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C6A66B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                  <span>(512) 555-0198</span>
+                  <span class="text-muted small">(Demo Line)</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Buying and Selling Services -->
+    <section class="section-padding bg-ivory" id="services" aria-labelledby="servicesHeading">
+      <div class="container">
+        <div class="text-center max-w-2xl mx-auto mb-5">
+          <span class="section-kicker">Client Engagement Models</span>
+          <h2 class="section-headline mb-3" id="servicesHeading">Bespoke Advisory Services</h2>
+          <p class="editorial-lead mx-auto fs-6">
+            Structured for discerning buyers and property owners who demand strategic precision, discretion, and market protection.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Service 1: Buyer Advisory -->
+          <div class="col-lg-4">
+            <div class="service-card">
+              <div class="service-num">01</div>
+              <h3 class="service-title">Buyer Representation</h3>
+              <p class="text-muted small">
+                Uncompromising representation from initial micro-pocket analysis to escrow settlement. We identify hidden structural and deed liabilities before contract execution.
+              </p>
+              <ul class="service-list">
+                <li>Discrete access to off-market &amp; pocket listings</li>
+                <li>Forensic municipal zoning &amp; tax history audits</li>
+                <li>Strategic contract structuring for competitive multi-offers</li>
+                <li>Rigorous structural &amp; mechanical inspection negotiations</li>
+                <li>100% fiduciary duty protecting buyer capital</li>
+              </ul>
+              <div class="mt-auto pt-4">
+                <a href="#contact" class="btn-luxury-outline w-100 btn-sm text-center" data-consultation-trigger>
+                  Initiate Buyer Search
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 2: Seller Representation -->
+          <div class="col-lg-4">
+            <div class="service-card">
+              <div class="service-num">02</div>
+              <h3 class="service-title">Seller &amp; Listing Marketing</h3>
+              <p class="text-muted small">
+                Positioning distinctive Austin architecture to capture qualified domestic and global buyers through editorial presentation and targeted marketing.
+              </p>
+              <ul class="service-list">
+                <li>Architectural magazine-grade staging &amp; dusk capture</li>
+                <li>Dedicated cinematic 4K video walkthrough production</li>
+                <li>Direct syndication to global luxury networks</li>
+                <li>Curated private broker opens for qualified principals</li>
+                <li>Strict qualification of prospective touring buyers</li>
+              </ul>
+              <div class="mt-auto pt-4">
+                <a href="#contact" class="btn-luxury-outline w-100 btn-sm text-center" data-consultation-trigger>
+                  Request Market Valuation
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 3: Relocation -->
+          <div class="col-lg-4">
+            <div class="service-card">
+              <div class="service-num">03</div>
+              <h3 class="service-title">Austin Executive Relocation</h3>
+              <p class="text-muted small">
+                White-glove orientation for executives, founders, and families moving to Central Texas from California, New York, London, and beyond.
+              </p>
+              <ul class="service-list">
+                <li>Private neighborhood orientation &amp; commute analyses</li>
+                <li>Eanes, Lake Travis, and private academy admission counsel</li>
+                <li>Texas tax advantages &amp; homestead exemption briefing</li>
+                <li>Vetted contractor, architect, and interior designer network</li>
+                <li>Remote virtual walk-throughs &amp; escrow oversight</li>
+              </ul>
+              <div class="mt-auto pt-4">
+                <a href="#contact" class="btn-luxury-outline w-100 btn-sm text-center" data-consultation-trigger>
+                  Plan Relocation
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4-Step Client Journey -->
+        <div class="mt-5 p-4 rounded-3 bg-white border">
+          <div class="row g-4 text-center">
+            <div class="col-6 col-md-3">
+              <div class="fw-bold text-dark fs-5 mb-1 font-serif">1. Strategic Discovery</div>
+              <div class="text-muted small">Deep alignment on architectural desires, school boundaries, and fiscal parameters.</div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="fw-bold text-dark fs-5 mb-1 font-serif">2. Private Curation</div>
+              <div class="text-muted small">Targeted private showings of MLS and confidential off-market inventory.</div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="fw-bold text-dark fs-5 mb-1 font-serif">3. Analytical Negotiation</div>
+              <div class="text-muted small">Forensic CMA comps structuring offers with favorable terms.</div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="fw-bold text-dark fs-5 mb-1 font-serif">4. Seamless Closing</div>
+              <div class="text-muted small">Flawless title coordination, repairs reconciliation, and key delivery.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Neighborhood or Local-Area Guide (Austin Enclaves) -->
+    <section class="section-padding bg-white" id="neighborhoodGuide" aria-labelledby="neighborhoodHeading">
+      <div class="container">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-5 gap-3">
+          <div>
+            <span class="section-kicker">Austin Enclave Intelligence</span>
+            <h2 class="section-headline mb-2" id="neighborhoodHeading">Austin Neighborhood Guide</h2>
+            <p class="editorial-lead mb-0 fs-6">
+              Essential street-level insight, price trajectories, and lifestyle characteristics across Central Texas.
+            </p>
+          </div>
+          <div>
+            <a href="#contact" class="btn-luxury-outline btn-sm text-nowrap" data-consultation-trigger>
+              Request Neighborhood Report
+            </a>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <!-- Enclave 1: Westlake Hills -->
+          <div class="col-md-6 col-lg-4">
+            <div class="enclave-card">
+              <div>
+                <div class="enclave-media">
+                  <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=700&q=80"
+                       alt="Westlake Hills luxury Hill Country residential enclave"
+                       loading="lazy"
+                       decoding="async" />
+                </div>
+                <h3 class="enclave-name">Westlake Hills &amp; Eanes ISD</h3>
+                <p class="enclave-desc">
+                  Rolling limestone canyons, private acreage, and Texas's highest-ranked public education system. Minutes to downtown via Loop 360.
+                </p>
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                  <span class="badge bg-light text-dark border">Top Schools</span>
+                  <span class="badge bg-light text-dark border">Hill Country Views</span>
+                  <span class="badge bg-light text-dark border">Luxury Acreage</span>
+                </div>
+              </div>
+              <div>
+                <div class="enclave-meta-bar">
+                  <span>Median: $2,450,000</span>
+                  <span>10 Min to Downtown</span>
+                </div>
+                <button type="button" class="btn btn-sm btn-link text-decoration-none text-dark fw-bold px-0 mt-2 d-flex align-items-center gap-1" data-enclave-filter="westlake">
+                  <span>Filter Westlake Homes</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Enclave 2: Downtown & Rainey -->
+          <div class="col-md-6 col-lg-4">
+            <div class="enclave-card">
+              <div>
+                <div class="enclave-media">
+                  <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=700&q=80"
+                       alt="Downtown Austin luxury high-rise condo enclave overlooking Lady Bird Lake"
+                       loading="lazy"
+                       decoding="async" />
+                </div>
+                <h3 class="enclave-name">Downtown &amp; Rainey Historic District</h3>
+                <p class="enclave-desc">
+                  High-rise luxury living perched above Lady Bird Lake. Unrivaled walkability to Michelin-starred dining, cultural theaters, and the hike-and-bike trail.
+                </p>
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                  <span class="badge bg-light text-dark border">Skyline Views</span>
+                  <span class="badge bg-light text-dark border">Trail Access</span>
+                  <span class="badge bg-light text-dark border">Concierge Amenities</span>
+                </div>
+              </div>
+              <div>
+                <div class="enclave-meta-bar">
+                  <span>Median: $1,450,000</span>
+                  <span>Walk Score: 96</span>
+                </div>
+                <button type="button" class="btn btn-sm btn-link text-decoration-none text-dark fw-bold px-0 mt-2 d-flex align-items-center gap-1" data-enclave-filter="downtown">
+                  <span>Filter Downtown Homes</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Enclave 3: South Congress & Bouldin -->
+          <div class="col-md-6 col-lg-4">
+            <div class="enclave-card">
+              <div>
+                <div class="enclave-media">
+                  <img src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=700&q=80"
+                       alt="Bouldin Creek and South Congress contemporary craftsman homes"
+                       loading="lazy"
+                       decoding="async" />
+                </div>
+                <h3 class="enclave-name">South Congress &amp; Bouldin Creek</h3>
+                <p class="enclave-desc">
+                  Iconic 78704 culture featuring restored craftsman bungalows, modern architectural builds, live music cafes, and leafy pecan canopies.
+                </p>
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                  <span class="badge bg-light text-dark border">Iconic 78704</span>
+                  <span class="badge bg-light text-dark border">Artisan Builds</span>
+                  <span class="badge bg-light text-dark border">Cafe Culture</span>
+                </div>
+              </div>
+              <div>
+                <div class="enclave-meta-bar">
+                  <span>Median: $1,295,000</span>
+                  <span>5 Min to SoCo</span>
+                </div>
+                <button type="button" class="btn btn-sm btn-link text-decoration-none text-dark fw-bold px-0 mt-2 d-flex align-items-center gap-1" data-enclave-filter="bouldin">
+                  <span>Filter Bouldin Homes</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Enclave 4: Clarksville & Old West Austin -->
+          <div class="col-md-6 col-lg-4">
+            <div class="enclave-card">
+              <div>
+                <div class="enclave-media">
+                  <img src="https://images.unsplash.com/photo-1598228723793-52759bba239c?auto=format&fit=crop&w=700&q=80"
+                       alt="Historic Clarksville tree-lined residential enclave in Central Austin"
+                       loading="lazy"
+                       decoding="async" />
+                </div>
+                <h3 class="enclave-name">Clarksville &amp; Old West Austin</h3>
+                <p class="enclave-desc">
+                  Stately 1920s historic residences, brick-paved lanes, quiet neighborhood bistros, and immediate proximity to downtown Austin.
+                </p>
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                  <span class="badge bg-light text-dark border">Historic Character</span>
+                  <span class="badge bg-light text-dark border">Tree-Lined Streets</span>
+                  <span class="badge bg-light text-dark border">Quiet Luxury</span>
+                </div>
+              </div>
+              <div>
+                <div class="enclave-meta-bar">
+                  <span>Median: $1,650,000</span>
+                  <span>Austin ISD</span>
+                </div>
+                <button type="button" class="btn btn-sm btn-link text-decoration-none text-dark fw-bold px-0 mt-2 d-flex align-items-center gap-1" data-enclave-filter="clarksville">
+                  <span>Filter Clarksville Homes</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Enclave 5: Barton Creek -->
+          <div class="col-md-6 col-lg-4">
+            <div class="enclave-card">
+              <div>
+                <div class="enclave-media">
+                  <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=700&q=80"
+                       alt="Barton Creek and Spanish Oaks gated golf community"
+                       loading="lazy"
+                       decoding="async" />
+                </div>
+                <h3 class="enclave-name">Barton Creek &amp; Spanish Oaks</h3>
+                <p class="enclave-desc">
+                  Gated canyon seclusion, premier championship golf courses, private equestrian trails, and panoramic Balcones Canyonlands vistas.
+                </p>
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                  <span class="badge bg-light text-dark border">Golf Estates</span>
+                  <span class="badge bg-light text-dark border">Gated Seclusion</span>
+                  <span class="badge bg-light text-dark border">Private Preserves</span>
+                </div>
+              </div>
+              <div>
+                <div class="enclave-meta-bar">
+                  <span>Median: $2,850,000</span>
+                  <span>Resort Lifestyle</span>
+                </div>
+                <button type="button" class="btn btn-sm btn-link text-decoration-none text-dark fw-bold px-0 mt-2 d-flex align-items-center gap-1" data-enclave-filter="barton-creek">
+                  <span>Filter Barton Creek Homes</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Enclave 6: Mueller & East Austin -->
+          <div class="col-md-6 col-lg-4">
+            <div class="enclave-card">
+              <div>
+                <div class="enclave-media">
+                  <img src="https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?auto=format&fit=crop&w=700&q=80"
+                       alt="Mueller sustainable master-planned community parkways and modern homes"
+                       loading="lazy"
+                       decoding="async" />
+                </div>
+                <h3 class="enclave-name">Mueller &amp; East Austin</h3>
+                <p class="enclave-desc">
+                  Master-planned sustainable living featuring modern LEED-certified homes, sprawling community parks, local farmer's markets, and vibrant culinary arts.
+                </p>
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                  <span class="badge bg-light text-dark border">LEED Certified</span>
+                  <span class="badge bg-light text-dark border">Community Parks</span>
+                  <span class="badge bg-light text-dark border">Creative Energy</span>
+                </div>
+              </div>
+              <div>
+                <div class="enclave-meta-bar">
+                  <span>Median: $925,000</span>
+                  <span>Green Living</span>
+                </div>
+                <button type="button" class="btn btn-sm btn-link text-decoration-none text-dark fw-bold px-0 mt-2 d-flex align-items-center gap-1" data-enclave-filter="mueller">
+                  <span>Filter Mueller Homes</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Testimonials Section (Prominently Labelled Fictional Placeholders) -->
+    <section class="section-padding testimonials-section" id="testimonials" aria-labelledby="testimonialsHeading">
+      <div class="container">
+        <div class="text-center max-w-2xl mx-auto mb-5">
+          <!-- Required Prominent Fictional Label -->
+          <div>
+            <span class="testimonial-warning-badge">
+              Sample testimonials — replace before launch
+            </span>
+          </div>
+          <span class="section-kicker">Client Confidence</span>
+          <h2 class="section-headline mb-3" id="testimonialsHeading">Private Advisory Experiences</h2>
+          <p class="editorial-lead mx-auto fs-6">
+            Illustrative feedback demonstrating layout, typography, and attribution standards. Replace with documented client consent prior to public deployment.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Testimonial 1 -->
+          <div class="col-md-4">
+            <div class="testimonial-card">
+              <div>
+                <!-- 5 Stars SVG -->
+                <div class="d-flex text-warning mb-3" aria-label="5 out of 5 stars rating">
+                  <svg width="16" height="16" fill="#C6A66B" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                  <svg width="16" height="16" fill="#C6A66B" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                  <svg width="16" height="16" fill="#C6A66B" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                  <svg width="16" height="16" fill="#C6A66B" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                  <svg width="16" height="16" fill="#C6A66B" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                </div>
+                <blockquote class="testimonial-quote">
+                  “Elena’s architectural scrutiny completely transformed our relocation. She identified subtle foundation grade concerns on two candidate Westlake properties and negotiated our eventual purchase $140,000 under original appraisal.”
+                </blockquote>
+              </div>
+              <div class="pt-3 border-top">
+                <div class="testimonial-author-name">David &amp; Claire Thompson</div>
+                <div class="testimonial-author-meta">Relocated from San Francisco · Purchased in Westlake Hills</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="col-md-4">
+            <div class="testimonial-card">
+              <div>
+                <div class="d-flex text-warning mb-3" aria-label="5 out of 5 stars rating">
+                  <svg width="16" height="16" fill="#C6A66B" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                  <svg width="16" height="16" fill="#C6A66B" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                  <svg width="16" height="16" fill="#C6A66B" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                  <svg width="16" height="16" fill="#C6A66B" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                  <svg width="16" height="16" fill="#C6A66B" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                </div>
+                <blockquote class="testimonial-quote">
+                  “The bespoke staging and dusk photography Oakline produced for our Rainey Street penthouse generated three all-cash buyer offers within eleven days. The process was calm, confidential, and exceptionally managed.”
+                </blockquote>
+              </div>
+              <div class="pt-3 border-top">
+                <div class="testimonial-author-name">Marcus &amp; Priya Patel</div>
+                <div class="testimonial-author-meta">Sold High-Rise Residence · Downtown Austin</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="col-md-4">
+            <div class="testimonial-card">
+              <div>
+                <div class="d-flex text-warning mb-3" aria-label="5 out of 5 stars rating">
+                  <svg width="16" height="16" fill="#C6A66B" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                  <svg width="16" height="16" fill="#C6A66B" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                  <svg width="16" height="16" fill="#C6A66B" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                  <svg width="16" height="16" fill="#C6A66B" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                  <svg width="16" height="16" fill="#C6A66B" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                </div>
+                <blockquote class="testimonial-quote">
+                  “As first-time Austin purchasers navigating competitive bidding, we felt completely protected. Elena's guidance through deed covenants and architectural expansion options in 78704 was invaluable.”
+                </blockquote>
+              </div>
+              <div class="pt-3 border-top">
+                <div class="testimonial-author-name">Sarah &amp; Kevin Jenkins</div>
+                <div class="testimonial-author-meta">Acquired Modern Craftsman · Bouldin Creek</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. Lead-Generation Section (Functional Front-End Form) -->
+    <section class="section-padding contact-section" id="contact" aria-labelledby="contactHeading">
+      <div class="container">
+        <div class="row g-4 g-lg-5">
+          <!-- Form Column -->
+          <div class="col-lg-7">
+            <div class="contact-card">
+              <span class="section-kicker">Confidential Inquiries</span>
+              <h2 class="section-headline mb-2" id="contactHeading">Schedule a Private Advisory Session</h2>
+              <p class="text-muted small mb-4">
+                Whether considering an acquisition, listing an Austin residence, or seeking discrete off-market counsel, submit your inquiry below.
+              </p>
+
+              <form id="oaklineContactForm" novalidate>
+                <!-- Name -->
+                <div class="mb-3">
+                  <label for="contactName" class="form-label-custom">
+                    Full Name <span class="text-danger" aria-hidden="true">*</span>
+                  </label>
+                  <input type="text" class="form-control-custom" id="contactName" placeholder="e.g. Eleanor Vance" required aria-required="true" autocomplete="name" />
+                  <div class="invalid-feedback-custom" id="nameError">
+                    Please provide your full legal name (minimum 2 characters).
+                  </div>
+                </div>
+
+                <!-- Email -->
+                <div class="mb-3">
+                  <label for="contactEmail" class="form-label-custom">
+                    Email Address <span class="text-danger" aria-hidden="true">*</span>
+                  </label>
+                  <input type="email" class="form-control-custom" id="contactEmail" placeholder="e.g. eleanor@vanceholding.com" required aria-required="true" autocomplete="email" />
+                  <div class="invalid-feedback-custom" id="emailError">
+                    Please provide a valid business or personal email address.
+                  </div>
+                </div>
+
+                <!-- Phone (Optional with auto-formatting) -->
+                <div class="mb-3">
+                  <label for="contactPhone" class="form-label-custom d-flex justify-content-between">
+                    <span>Phone Number</span>
+                    <span class="text-muted fw-normal text-none text-lowercase">(optional)</span>
+                  </label>
+                  <input type="tel" class="form-control-custom" id="contactPhone" placeholder="(512) 555-0198" autocomplete="tel" />
+                  <div class="invalid-feedback-custom" id="phoneError">
+                    Please provide a valid 10-digit telephone number (or leave blank).
+                  </div>
+                </div>
+
+                <!-- Primary Interest & Target Area -->
+                <div class="row g-3 mb-3">
+                  <div class="col-sm-6">
+                    <label for="contactService" class="form-label-custom">Primary Objective</label>
+                    <select class="form-select-custom" id="contactService">
+                      <option value="buying">Purchasing a Residence</option>
+                      <option value="selling">Selling an Austin Property</option>
+                      <option value="schedule-tour">Schedule a Private Tour</option>
+                      <option value="relocating">Executive Relocation</option>
+                      <option value="general">Confidential Consultation</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6">
+                    <label for="contactNeighborhood" class="form-label-custom">Target Enclave</label>
+                    <select class="form-select-custom" id="contactNeighborhood">
+                      <option value="">Any Central Austin Area</option>
+                      <option value="westlake">Westlake Hills / Eanes ISD</option>
+                      <option value="downtown">Downtown / Rainey Historic</option>
+                      <option value="bouldin">South Congress / Bouldin</option>
+                      <option value="clarksville">Clarksville / Old West Austin</option>
+                      <option value="barton-creek">Barton Creek / Spanish Oaks</option>
+                      <option value="mueller">Mueller / East Austin</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Message Field -->
+                <div class="mb-3">
+                  <label for="contactMessage" class="form-label-custom">
+                    Inquiry Details <span class="text-danger" aria-hidden="true">*</span>
+                  </label>
+                  <textarea class="form-control-custom" id="contactMessage" rows="4" maxlength="500" placeholder="Please outline your acquisition timeline, architectural preferences, or property details..." required aria-required="true"></textarea>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="invalid-feedback-custom" id="messageError">
+                      Please enter your inquiry details (minimum 10 characters).
+                    </div>
+                    <div class="char-counter ms-auto" id="contactCharCount">0 / 500 characters</div>
+                  </div>
+                </div>
+
+                <!-- Consent Checkbox -->
+                <div class="mb-4">
+                  <div class="form-consent-box">
+                    <div class="d-flex align-items-start gap-2">
+                      <input class="form-check-input-custom" type="checkbox" id="contactConsent" required aria-required="true" />
+                      <label class="form-check-label small text-muted mb-0" for="contactConsent">
+                        <strong>Consent &amp; Communication:</strong> I consent to receive discrete real estate communications and curated market dossiers from Oakline Realty. Unsubscribe at any time.
+                      </label>
+                    </div>
+                    <div class="invalid-feedback-custom" id="consentError">
+                      You must agree to the communication consent before submitting.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div>
+                  <button type="submit" class="btn-luxury-gold w-100 py-3" id="contactSubmitBtn">
+                    <span>Submit Consultation Request</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <line x1="22" y1="2" x2="11" y2="13"></line>
+                      <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                  </button>
+                </div>
+                
+                <div class="text-center mt-3 text-muted small">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-1" aria-hidden="true">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                  </svg>
+                  Demonstration Sandbox: Form validates inputs cleanly in browser without transmitting live email.
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <!-- Contact Details Column -->
+          <div class="col-lg-5">
+            <div class="contact-info-panel">
+              <span class="d-inline-block text-warning small fw-bold text-uppercase mb-2 letter-spacing-1" style="color: #E0CEAA !important;">Private Client Office</span>
+              <h3 class="h3 font-serif text-white mb-3">Oakline Realty Austin</h3>
+              <p class="text-secondary small mb-4" style="color: #9DA8B5 !important;">
+                Consultations are conducted by appointment at our Downtown Austin advisory suite or privately on-site at prospective residences.
+              </p>
+
+              <!-- Address -->
+              <div class="contact-info-item">
+                <div class="contact-info-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <div class="fw-bold text-white small">Advisory Suite (Demonstration)</div>
+                  <address class="text-secondary small mb-0" style="color: #CBD5E1 !important;">
+                    200 Congress Avenue, Suite 1400<br />
+                    Austin, TX 78701
+                  </address>
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div class="contact-info-item">
+                <div class="contact-info-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <div class="fw-bold text-white small">Telephone Inquiries</div>
+                  <a href="tel:5125550198" class="text-decoration-none small text-white">
+                    (512) 555-0198
+                  </a>
+                  <div class="small" style="color: #848D99;">Monday – Saturday: 8:00 AM – 6:30 PM</div>
+                </div>
+              </div>
+
+              <!-- Email -->
+              <div class="contact-info-item">
+                <div class="contact-info-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <div class="fw-bold text-white small">Direct Advisory Email</div>
+                  <a href="mailto:advisory@oaklinerealty-demo.com" class="small text-decoration-none text-white">
+                    advisory@oaklinerealty-demo.com
+                  </a>
+                </div>
+              </div>
+
+              <!-- Equal Housing Opportunity Statement -->
+              <div class="pt-4 mt-2 border-top border-secondary border-opacity-25 d-flex align-items-center gap-3">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C6A66B" stroke-width="1.8" class="flex-shrink-0" aria-hidden="true">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                  <path d="M9 22V12h6v10"></path>
+                </svg>
+                <div class="small" style="color: #CBD5E1;">
+                  <strong>Equal Housing Opportunity:</strong> We pledge to the letter and spirit of U.S. policy for the achievement of equal housing opportunity.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 10. Elegant Footer with Contact Details Marked as Demo Placeholders -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="row g-4 justify-content-between">
+        <!-- Brand & Mission -->
+        <div class="col-lg-4">
+          <a href="#top" class="footer-brand-title">
+            <span>OAKLINE</span><span style="color: #C6A66B;"> REALTY</span>
+          </a>
+          <p class="small mb-3" style="color: #9DA8B5;">
+            Boutique residential real estate advisory serving Austin, Westlake Hills, and the Texas Hill Country. Founded upon architectural discernment and discrete client advocacy.
+          </p>
+          <div class="small" style="color: #CBD5E1;">
+            <strong>Austin Suite:</strong> 200 Congress Ave, Suite 1400, Austin, TX 78701
+          </div>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="col-6 col-sm-3 col-lg-2">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#featuredProperties">Featured Portfolio</a></li>
+            <li><a href="#propertySearch">Search Properties</a></li>
+            <li><a href="#neighborhoodGuide">Austin Enclaves</a></li>
+            <li><a href="#services">Advisory Services</a></li>
+            <li><a href="#agentProfile">Principal Advisor</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Private Consultation</a></li>
+          </ul>
+        </div>
+
+        <!-- Enclaves -->
+        <div class="col-6 col-sm-3 col-lg-2">
+          <h4 class="footer-heading">Austin Enclaves</h4>
+          <ul class="footer-links">
+            <li><a href="#neighborhoodGuide">Westlake Hills</a></li>
+            <li><a href="#neighborhoodGuide">Downtown &amp; Rainey</a></li>
+            <li><a href="#neighborhoodGuide">South Congress (78704)</a></li>
+            <li><a href="#neighborhoodGuide">Clarksville</a></li>
+            <li><a href="#neighborhoodGuide">Barton Creek</a></li>
+            <li><a href="#neighborhoodGuide">Mueller</a></li>
+          </ul>
+        </div>
+
+        <!-- Texas Brokerage Notices -->
+        <div class="col-sm-6 col-lg-3">
+          <h4 class="footer-heading">Regulatory Standards</h4>
+          <ul class="footer-links mb-3">
+            <li>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#iabsModal">
+                Texas Info About Brokerage (IABS)
+              </a>
+            </li>
+            <li>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#consumerNoticeModal">
+                TREC Consumer Protection Notice
+              </a>
+            </li>
+            <li>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#privacyModal">
+                Privacy Policy (Placeholder)
+              </a>
+            </li>
+            <li>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#demoDisclaimerModal">
+                Portfolio Demo Terms
+              </a>
+            </li>
+          </ul>
+          <div class="small" style="color: #9DA8B5;">
+            Broker License #: 000000 (Fictional Demo Entity)
+          </div>
+        </div>
+      </div>
+
+      <!-- Prominent Required Fictional Portfolio Disclaimer Card -->
+      <div class="footer-disclaimer-card">
+        <div class="fw-bold text-white mb-1">Portfolio Demonstration Notice &amp; Disclaimer</div>
+        <p class="mb-0">
+          Oakline Realty is an illustrative portfolio website demo for web development evaluation and presentation purposes. All sample properties, prices, features, addresses, agent credentials, and client testimonials are simulated mock concepts and do NOT represent real listings, actual transactions, or active representations. Never submit private or sensitive financial information.
+        </p>
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom-bar text-secondary small">
+        <div style="color: #9DA8B5;">
+          &copy; <span id="currentYear">2026</span> Oakline Realty Demo. All rights reserved.
+        </div>
+        <div class="d-flex gap-3">
+          <a href="#" class="text-secondary" data-bs-toggle="modal" data-bs-target="#privacyModal">Privacy Policy</a>
+          <span aria-hidden="true">·</span>
+          <a href="#" class="text-secondary" data-bs-toggle="modal" data-bs-target="#demoDisclaimerModal">Demo Terms</a>
+          <span aria-hidden="true">·</span>
+          <a href="#top" class="text-secondary">Back to Top</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button type="button" class="btn-back-to-top" id="backToTopBtn" aria-label="Scroll back to top of page">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- =========================================================================
+       MODALS & DIALOGS
+       ========================================================================= -->
+
+  <!-- 1. Property Quick View Modal with Austin Investment Estimator -->
+  <div class="modal fade modal-custom" id="propertyDetailModal" tabindex="-1" aria-labelledby="modalPropTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div>
+            <span class="badge bg-secondary mb-1" id="modalPropType">Single-Family Residence</span>
+            <h3 class="modal-title font-serif h4" id="modalPropTitle">Property Title</h3>
+            <div class="text-muted small" id="modalPropAddress">Address</div>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close dialog"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Interactive Multi-Photo Gallery -->
+          <div class="modal-gallery-wrapper" role="region" aria-label="Property Photo Gallery">
+            <div class="modal-gallery-main">
+              <img id="modalGalleryImage" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80" alt="Curated Property View" />
+              <!-- Prev / Next Navigation Controls -->
+              <button type="button" class="modal-gallery-nav-btn prev" id="modalGalleryPrevBtn" aria-label="Previous photograph">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+              </button>
+              <button type="button" class="modal-gallery-nav-btn next" id="modalGalleryNextBtn" aria-label="Next photograph">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </button>
+              <!-- Live Caption Bar -->
+              <div class="modal-gallery-caption-bar">
+                <span id="modalGalleryCaption">Front Elevation &amp; Reflection Pool</span>
+                <span class="badge bg-dark bg-opacity-75 border border-secondary" id="modalGalleryCounter">1 of 4</span>
+              </div>
+            </div>
+            <!-- Thumbnail Navigation Strip -->
+            <div class="modal-gallery-thumbs" id="modalGalleryThumbs" role="tablist" aria-label="Select property photo">
+              <!-- Dynamically populated by script.js -->
+            </div>
+          </div>
+
+          <div class="d-flex flex-wrap align-items-baseline justify-content-between pb-3 mb-3 border-bottom gap-2">
+            <div>
+              <div class="h3 fw-bold text-dark mb-0 font-serif" id="modalPropPrice">$0,000,000</div>
+              <div class="small text-muted">Estimated Payment: <strong class="text-dark" id="modalEstimatedPayment">~$0/mo</strong> <span class="text-muted" style="font-size: 0.75rem;">(P&amp;I + Travis Tax + Ins)</span></div>
+            </div>
+            <div class="badge bg-warning-subtle text-dark border">Sample Concept Listing</div>
+          </div>
+
+          <!-- Specs row -->
+          <div class="row g-2 text-center py-2 mb-3 bg-light rounded">
+            <div class="col-3">
+              <span class="d-block small text-muted">Bedrooms</span>
+              <strong class="d-block text-dark font-serif fs-5" id="modalPropBeds">-</strong>
+            </div>
+            <div class="col-3">
+              <span class="d-block small text-muted">Bathrooms</span>
+              <strong class="d-block text-dark font-serif fs-5" id="modalPropBaths">-</strong>
+            </div>
+            <div class="col-3">
+              <span class="d-block small text-muted">Living Area</span>
+              <strong class="d-block text-dark font-serif fs-5" id="modalPropSqft">-</strong>
+            </div>
+            <div class="col-3">
+              <span class="d-block small text-muted">Year Built</span>
+              <strong class="d-block text-dark font-serif fs-5" id="modalPropYear">-</strong>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <h4 class="h6 fw-bold text-dark">School District &amp; Education</h4>
+            <p class="text-muted small mb-0" id="modalPropSchool">-</p>
+          </div>
+
+          <div class="mb-3">
+            <h4 class="h6 fw-bold text-dark">Architectural Overview</h4>
+            <p class="text-muted small" id="modalPropDesc">-</p>
+          </div>
+
+          <div class="mb-3">
+            <h4 class="h6 fw-bold text-dark">Notable Features &amp; Finishes</h4>
+            <ul class="text-muted small ps-3" id="modalPropFeatures"></ul>
+          </div>
+
+          <div class="p-3 bg-light border rounded small text-secondary">
+            <strong>Demonstration Notice:</strong> This property listing is a mock portfolio concept. It is not for sale, under contract, or marketed on any Multiple Listing Service (MLS).
+          </div>
+        </div>
+        <div class="modal-footer d-flex justify-content-between">
+          <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn-luxury-gold btn-sm" id="modalInquireBtn">
+            Inquire &amp; Schedule Tour
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Contact Form Demo Success Modal (Shows clear message without pretending to send email) -->
+  <div class="modal fade modal-custom" id="demoSuccessModal" tabindex="-1" aria-labelledby="demoSuccessModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-success-subtle border-0">
+          <div class="d-flex align-items-center gap-2">
+            <div class="p-2 bg-success text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 32px; height: 32px;" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
+            <h3 class="modal-title font-serif h5 mb-0 text-success-emphasis" id="demoSuccessModalTitle">Demo Inquiry Received!</h3>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="text-muted small mb-3">
+            <strong>Simulation Confirmation:</strong> Thank you for testing the Oakline Realty contact form. All inputs were validated successfully.
+          </p>
+          <div class="alert alert-info py-2 small mb-3">
+            <strong>Note:</strong> As this is a portfolio frontend demonstration, <em>no real email was transmitted</em> and no backend database stored this submission. In a production launch, this data would route securely via serverless webhook, Zapier, or client CRM API.
+          </div>
+
+          <h4 class="h6 fw-bold mb-2">Submitted Field Summary:</h4>
+          <div id="demoSubmissionSummary"></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn-luxury-gold btn-sm" id="resetDemoFormBtn">
+            Reset Demo Form
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Privacy Policy Placeholder Modal -->
+  <div class="modal fade modal-custom" id="privacyModal" tabindex="-1" aria-labelledby="privacyModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title font-serif h5" id="privacyModalTitle">Privacy Policy (Placeholder for Client Launch)</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-muted small">
+          <div class="alert alert-warning py-2 mb-3">
+            <strong>Client Replacement Checklist:</strong> Replace this placeholder text with your licensed brokerage’s attorney-reviewed privacy policy before deploying to production.
+          </div>
+          <h4 class="h6 text-dark fw-bold">1. Information Collection (Demo Scope)</h4>
+          <p>This demonstration website runs client-side without collecting, retaining, or monetizing personal consumer data. Any information entered into demo forms remains in local browser session memory.</p>
+          
+          <h4 class="h6 text-dark fw-bold">2. Production Requirements</h4>
+          <p>Upon production deployment, client policies should disclose details regarding contact information, cookie tracking, analytics tags (e.g. Google Analytics), and CRM data retention practices in compliance with Texas law and federal privacy regulations.</p>
+          
+          <h4 class="h6 text-dark fw-bold">3. Contacting Brokerage Privacy Officer</h4>
+          <p>For inquiries regarding this portfolio demonstration code, refer to the project repository documentation.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. Texas Brokerage Information (IABS) Modal -->
+  <div class="modal fade modal-custom" id="iabsModal" tabindex="-1" aria-labelledby="iabsModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title font-serif h5" id="iabsModalTitle">Information About Brokerage Services (IABS)</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-muted small">
+          <p>Texas law requires all real estate license holders to give the following information about brokerage services to prospective buyers, tenants, sellers and landlords:</p>
+          <ul class="ps-3 mb-3">
+            <li>A broker is responsible for all brokerage activities, including acts performed by sales agents sponsored by the broker.</li>
+            <li>A sales agent must be sponsored by a broker and works with clients on behalf of the broker.</li>
+            <li>A broker’s minimum duties required by law include putting the client’s interests above all others, informing the client of material information, answering questions, and treating all parties honestly.</li>
+          </ul>
+          <p class="mb-0 text-secondary">
+            <em>This modal is a demonstration placeholder. In production, this link must directly open the official TREC Form IABS-1-0 PDF customized with the designated broker and license numbers.</em>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. TREC Consumer Protection Notice Modal -->
+  <div class="modal fade modal-custom" id="consumerNoticeModal" tabindex="-1" aria-labelledby="consumerNoticeModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title font-serif h5" id="consumerNoticeModalTitle">Texas Real Estate Commission Consumer Protection Notice</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-muted small">
+          <p>The Texas Real Estate Commission (TREC) regulates real estate brokers and sales agents, real estate inspectors, home warranty companies, and timeshare interest providers.</p>
+          <p>You can verify a license holder's status, review complaint history, or access the Real Estate Recovery Trust Account by visiting TREC's official site at trec.texas.gov.</p>
+          <p class="mb-0 text-secondary">
+            <em>Demo Placeholder: Replace with compliant links and TREC Notice CN 1-5 upon production launch.</em>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. Demo Disclaimer & Licensing Modal -->
+  <div class="modal fade modal-custom" id="demoDisclaimerModal" tabindex="-1" aria-labelledby="demoModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title font-serif h5" id="demoModalTitle">Demo Status &amp; Licensing Disclosure</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-muted small">
+          <h4 class="h6 text-dark fw-bold">Fictional Brand Notice</h4>
+          <p>“Oakline Realty” is an entirely fictional real estate brand created as a high-fidelity demonstration of modern web engineering, accessible UI design, and responsive layouts.</p>
+          
+          <h4 class="h6 text-dark fw-bold">Sample Listings &amp; Imagery</h4>
+          <p>No listings shown on this site are real, active, pending, or available for sale. All architectural illustrations are vector concept artwork created specifically for this demonstration without using copyrighted MLS or proprietary third-party listings.</p>
+
+          <h4 class="h6 text-dark fw-bold">Testimonials &amp; Production Checklist</h4>
+          <p class="mb-0">All reviews and agent profiles are illustrative placeholders. Refer to <code>README.md</code> for instructions on replacing all dummy content before any commercial deployment.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 5.3.3 Bundle JS (with Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- Custom Vanilla JS Script -->
+  <script type="module" src="/script.js"></script>
+
+  <script>
+    // Set dynamic current year in footer
+    const yearEl = document.getElementById('currentYear');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
